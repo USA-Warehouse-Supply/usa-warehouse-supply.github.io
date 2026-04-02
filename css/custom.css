@@ -1,0 +1,7 @@
+:root {
+    --first-screen-font-size: 80px;
+    --first-screen-icon-size: 36px;
+    --post-update-datetime: none;
+    --post-create-datetime: none;
+    --page-content-max-width: 2000px;
+}
