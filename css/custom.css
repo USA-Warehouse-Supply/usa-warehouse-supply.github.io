@@ -1,9 +1,14 @@
 :root {
     --first-screen-font-size: 80px;
-    --first-screen-icon-size: 36px;
+    --first-screen-icon-size: 50px;
     --post-update-datetime: none;
     --post-create-datetime: none;
-    --page-content-max-width: 2000px;
+    --page-content-max-width: 1500px;
+    --base-font-family: 'Roboto', Arial, sans-serif;
+    --title-font-family: 'Roboto', Arial, sans-serif;
+    --base-font-size: 20px;
+    --box-border-radius: 20px;
+    --header-title-font-family: 'Roboto', Arial, sans-serif;
 }
 
 .firework-canvas {
@@ -20,9 +25,27 @@
       position: fixed;
       width: 3px;
       height: 3px;
-      background: rgba(70, 130, 180, 0.6);
+      background: rgba(73, 68, 68, 0.719);
       border-radius: 50%;
       pointer-events: none;
       z-index: 9999;
-      transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+      transition: transform 0.8s ease-out, opacity 0.8s ease-out;
     }
+
+img {
+  max-height: 500px !important;
+  height: auto !important;
+  max-width: 100% !important;
+  width: auto !important;
+  object-fit: contain !important;
+}
+
+@media (max-width: 768px) {
+  .first-screen-font-size {
+    font-size: 22px !important; /* 手机端改小这里 */
+  }
+  #header .menu .menu-item {
+    font-size: 14px; /* 手机端更小，更适配 */
+    padding: 0 8px;  /* 手机端间距压缩 */
+  }
+}
