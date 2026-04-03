@@ -31,7 +31,7 @@
       z-index: 9999;
       transition: transform 0.8s ease-out, opacity 0.8s ease-out;
     }
-
+/*
 img {
   max-height: 500px !important;
   height: auto !important;
@@ -39,13 +39,29 @@ img {
   width: auto !important;
   object-fit: contain !important;
 }
+*/
 
 @media (max-width: 768px) {
   .first-screen-font-size {
-    font-size: 22px !important; /* 手机端改小这里 */
+    font-size: 14px !important; /* 手机端改小这里 */
   }
   #header .menu .menu-item {
     font-size: 14px; /* 手机端更小，更适配 */
     padding: 0 8px;  /* 手机端间距压缩 */
   }
+}
+
+/* 文章全局左对齐 */
+.post-body {
+  text-align: left !important;
+}
+/* 标题也左对齐（可选，更整齐） */
+.post-title {
+  text-align: left !important;
+}
+
+.post-body img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
