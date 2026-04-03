@@ -1,14 +1,18 @@
 :root {
-    --first-screen-font-size: 80px;
+    --first-screen-font-size: 50px;
+    --first-screen-font-size-mobile: 10px;
     --first-screen-icon-size: 50px;
+    --first-screen-icon-size-mobile: 20px;
     --post-update-datetime: none;
     --post-create-datetime: none;
-    --page-content-max-width: 1500px;
+    --page-content-max-width: 1200px;
     --base-font-family: 'Roboto', Arial, sans-serif;
     --title-font-family: 'Roboto', Arial, sans-serif;
     --base-font-size: 20px;
     --box-border-radius: 20px;
     --header-title-font-family: 'Roboto', Arial, sans-serif;
+    --header-logo-font-size: 18px;      /* 电脑端标题大小 */
+    --header-logo-font-size-mobile: 20px; /* 手机端标题大小 */
 }
 
 .firework-canvas {
@@ -31,15 +35,15 @@
       z-index: 9999;
       transition: transform 0.8s ease-out, opacity 0.8s ease-out;
     }
-/*
+
 img {
   max-height: 500px !important;
   height: auto !important;
   max-width: 100% !important;
   width: auto !important;
-  object-fit: contain !important;
+  
 }
-*/
+/* object-fit: contain !important; */
 
 @media (max-width: 768px) {
   .first-screen-font-size {
@@ -58,4 +62,17 @@ img {
 /* 标题也左对齐（可选，更整齐） */
 .post-title {
   text-align: left !important;
+}
+
+/* 绑定变量（必须这一段，才能生效） */
+#header .logo {
+  font-size: var(--header-logo-font-size) !important;
+  font-weight: 600 !important;
+}
+
+/* 手机端正确 */
+@media (max-width: 768px) {
+  #header .logo {
+    font-size: var(--header-logo-font-size-mobile) !important;
+  }
 }
