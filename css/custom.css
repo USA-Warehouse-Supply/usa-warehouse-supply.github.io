@@ -59,9 +59,3 @@ img {
 .post-title {
   text-align: left !important;
 }
-
-.post-body img {
-  display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
