@@ -1,14 +1,14 @@
 :root {
     --first-screen-font-size: 50px;
     --first-screen-font-size-mobile: 10px;
-    --first-screen-icon-size: 50px;
+    --first-screen-icon-size: 30px;
     --first-screen-icon-size-mobile: 20px;
     --post-update-datetime: none;
     --post-create-datetime: none;
     --page-content-max-width: 1200px;
     --base-font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     --title-font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-    --base-font-size: 20px;
+    --base-font-size: 18px;
     --box-border-radius: 20px;
     --header-title-font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     --header-title-font-size: 22px;      /* 电脑端标题大小 */
@@ -58,13 +58,19 @@ img {
   }
 }
 
-/* 文章全局左对齐 */
+/* 核心修复：关闭文章两端对齐，强制正常左对齐 */
 .post-body {
-  text-align: left !important;
+  text-align: left !important;       /* 强制左对齐，不撑开单词 */
+  text-align-last: left !important;  /* 最后一行也左对齐 */
+  text-justify: none !important;     /* 禁用两端对齐 */
 }
-/* 标题也左对齐（可选，更整齐） */
-.post-title {
-  text-align: left !important;
+
+/* 手机端彻底紧致显示 */
+@media (max-width: 768px) {
+  .post-body p {
+    line-height: 1.45 !important;
+    text-align: left !important;
+  }
 }
 
 body,
