@@ -6,14 +6,17 @@
     --post-update-datetime: none;
     --post-create-datetime: none;
     --page-content-max-width: 1200px;
-    --base-font-family: 'Roboto', Arial, sans-serif;
-    --title-font-family: 'Roboto', Arial, sans-serif;
+    --base-font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --title-font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     --base-font-size: 20px;
     --box-border-radius: 20px;
-    --header-title-font-family: 'Roboto', Arial, sans-serif;
-    --header-logo-font-size: 18px;      /* 电脑端标题大小 */
-    --header-logo-font-size-mobile: 20px; /* 手机端标题大小 */
-}
+    --header-title-font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --header-title-font-size: 22px;      /* 电脑端标题大小 */
+    --header-title-font-size-mobile: 10px; /* 手机端标题大小 */
+      /* 新加这两行 */
+    --base-letter-spacing: 0px;      /* 正常字间距 */
+    --base-line-height: 1.5;         /* 正常行高 */
+  }
 
 .firework-canvas {
       position: fixed;
@@ -64,15 +67,12 @@ img {
   text-align: left !important;
 }
 
-/* 绑定变量（必须这一段，才能生效） */
-#header .logo {
-  font-size: var(--header-logo-font-size) !important;
-  font-weight: 600 !important;
+body,
+.post-body,
+.post-title,
+.widget-body,
+.menu-item {
+  letter-spacing: var(--base-letter-spacing) !important;
+  line-height: var(--base-line-height) !important;
 }
 
-/* 手机端正确 */
-@media (max-width: 768px) {
-  #header .logo {
-    font-size: var(--header-logo-font-size-mobile) !important;
-  }
-}
