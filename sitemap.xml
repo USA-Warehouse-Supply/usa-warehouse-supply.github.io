@@ -102,6 +102,20 @@
   </url>
   
   <url>
+    <loc>https://usa-warehouse-supply.github.io/tags/thermal-label/</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://usa-warehouse-supply.github.io/tags/shipping-labels/</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://usa-warehouse-supply.github.io/tags/Workbench/</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -124,20 +138,6 @@
   
   <url>
     <loc>https://usa-warehouse-supply.github.io/tags/Warehouse-efficiency/</loc>
-    <lastmod>2026-04-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://usa-warehouse-supply.github.io/tags/thermal-label/</loc>
-    <lastmod>2026-04-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://usa-warehouse-supply.github.io/tags/shipping-labels/</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
