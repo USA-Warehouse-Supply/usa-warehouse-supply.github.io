@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Allow: /posts/
+Allow: /sitemap.xml
+
+Sitemap: https://usa-warehouse-supply.github.io/sitemap.xml
