@@ -83,34 +83,6 @@
 
   
   <url>
-    <loc>https://usa-warehouse-supply.github.io/tags/Workbench/</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://usa-warehouse-supply.github.io/tags/Packing-table/</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://usa-warehouse-supply.github.io/tags/Warehouse-Equipment/</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://usa-warehouse-supply.github.io/tags/Warehouse-efficiency/</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://usa-warehouse-supply.github.io/tags/Stretch-film/</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -187,14 +159,35 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://usa-warehouse-supply.github.io/categories/Workbench/</loc>
+    <loc>https://usa-warehouse-supply.github.io/tags/Workbench/</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
+  
+  <url>
+    <loc>https://usa-warehouse-supply.github.io/tags/Packing-table/</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://usa-warehouse-supply.github.io/tags/Warehouse-Equipment/</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://usa-warehouse-supply.github.io/tags/Warehouse-efficiency/</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
   
   <url>
     <loc>https://usa-warehouse-supply.github.io/categories/Packing-Suplies/</loc>
@@ -205,6 +198,13 @@
   
   <url>
     <loc>https://usa-warehouse-supply.github.io/categories/Warehouse-Pallet-Racks/</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://usa-warehouse-supply.github.io/categories/Workbench/</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
